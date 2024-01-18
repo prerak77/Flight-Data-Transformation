@@ -71,4 +71,4 @@ for line in lines:
     # Add the new row to the DataFrame
     data_df.loc[len(data_df)] = transformed_line
 
-data_df.to_csv("transformed_flight_data.csv")
+data_df.to_csv("transformed_flight_data.csv", index=False)
