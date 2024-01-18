@@ -36,9 +36,3 @@ The provided code transforms raw flight data, originally in the form of a semico
 ## Output
 
 The final transformed data is saved in a CSV file named `transformed_flight_data.csv`. This file contains the organized flight information, making it easier for further analysis and exploration.
-
-Feel free to reach out if you have any questions or suggestions!
-
----
-
-Make sure to replace "your-username" with your actual GitHub username in the clone URL. Additionally, you may want to update the README with more specific details about the project or instructions if needed.
