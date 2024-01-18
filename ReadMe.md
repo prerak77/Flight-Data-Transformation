@@ -33,12 +33,16 @@ To run the code, follow these steps:
 
 The provided code transforms raw flight data, originally in the form of a semicolon-separated string, into a structured and user-friendly DataFrame. Each row corresponds to a different flight, with columns such as 'Airline Code', 'DelayTimes', 'FlightCodes', 'To', and 'From'. The data is cleaned and formatted for better readability.
 
-Airline Code,DelayTimes,FlightCodes,To,From
-Air Canada,"[21, 40]",20015,WATERLOO,NEWYORK
-Air France,[],20025,MONTREAL,TORONTO
-Porter Airways,"[60, 22, 87]",20035,CALGARY,OTTAWA
-Air France,"[78, 66]",20045,OTTAWA,VANCOUVER
-Lufthansa,"[12, 33]",20055,LONDON,MONTREAL
+### Transformed Data
+
+```plaintext
+   Airline Code    DelayTimes  FlightCodes        To       From
+0   Air Canada      [21, 40]        20015  WATERLOO    NEWYORK
+1   Air France            []        20025  MONTREAL    TORONTO
+2  Porter Airways  [60, 22, 87]        20035   CALGARY     OTTAWA
+3   Air France      [78, 66]        20045    OTTAWA  VANCOUVER
+4    Lufthansa      [12, 33]        20055    LONDON   MONTREAL
+```
 
 ## Output
 
